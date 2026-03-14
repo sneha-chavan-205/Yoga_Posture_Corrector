@@ -12,7 +12,9 @@ def classify_pose(left_arm_angle, right_arm_angle, left_leg_angle, right_leg_ang
     elif left_leg_angle < 120 and right_leg_angle > 160 and left_arm_angle > 160 and right_arm_angle > 160:
         return "Warrior Pose"
 
-    # Chair Pose
+    # Chair Pos
+    #
+
     elif left_leg_angle < 120 and right_leg_angle < 120:
         return "Chair Pose"
 
